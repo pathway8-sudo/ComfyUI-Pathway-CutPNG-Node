@@ -1,2 +1,2 @@
 # ComfyUI-Pathway-CutPNG-Node
-A set of custom nodes for ComfyUI.
+Custom ComfyUI node that uses BRIA RMBG v1.4 for background removal and PNG cutting.
