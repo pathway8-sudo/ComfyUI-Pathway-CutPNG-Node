@@ -1,0 +1,15 @@
+[project]
+name = "pathway-cutpng-node"
+description = "Custom ComfyUI node that uses BRIA RMBG v1.4 for background removal and PNG cutting."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch", "torchvision", "numpy", "pillow", "huggingface_hub"]
+
+[project.urls]
+Repository = "https://github.com/pathway8-sudo/ComfyUI-Pathway-CutPNG-Node"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Pathway-CutPNG-Node"
+Icon = ""
