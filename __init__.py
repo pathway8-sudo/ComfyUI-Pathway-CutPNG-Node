@@ -1,7 +1,11 @@
-from .rmbg_cut_png import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
+from .cut_png_node import CutPNGNode  
 
+NODE_CLASS_MAPPINGS = {
+    "CutPNGNode": CutPNGNode  
+}
 
-def load_nodes():
-    return NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
+NODE_DISPLAY_NAME_MAPPINGS = {
+    "CutPNGNode": "Cut PNG (Background Remove)"  
+}
 
-__all__ = ["NODE_CLASS_MAPPINGS", "NODE_DISPLAY_NAME_MAPPINGS", "load_nodes"]
+__all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
